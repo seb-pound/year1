@@ -1,0 +1,14 @@
+#divisible problem
+a=float(input("input 1st number   "))
+B=float(input("input 2nd number   "))
+def suba (a,B):
+    if a==0:
+        return ("False")
+    if B==0:
+        return ("False")
+    if B/a==int:
+        return ("True")
+    if B/a!=int:
+        return ("False")
+    
+print ("",suba (a,B))

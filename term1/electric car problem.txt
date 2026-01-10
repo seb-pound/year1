@@ -1,0 +1,13 @@
+#electric car problem
+minutes=float(input("how many minutes has it been charged for    "))
+def cost (placeholder):
+    if placeholder<15:
+         return ("{:.2f}".format(4.00))
+    else:
+        return ("{:.2f}".format(4.00+((placeholder-15)*0.2)))
+def points (placeholder):
+    if minutes<15:
+        return 22
+    else:
+        return ("{:.2f}".format(22+((placeholder-15)*1.5)))
+print ("this session cost you £",cost(minutes),"you have earned",points(minutes),"points against your shopping")

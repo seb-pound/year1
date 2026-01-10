@@ -1,0 +1,8 @@
+#save the change problem
+import math
+ammount=float(input("how much has been spent     "))
+rounded_num=math.ceil(ammount)
+changeinsavings=rounded_num-ammount
+print ("ammount spent=",ammount,)
+print ("ammount subtracted from account=",rounded_num)
+print ("ammount in savings",changeinsavings,)

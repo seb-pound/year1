@@ -1,0 +1,5 @@
+import math
+hours=float(input("how many hours   "))
+abc=hours/24
+answer=math.floor(abc)
+print ("there are",answer,"days")

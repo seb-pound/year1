@@ -1,0 +1,9 @@
+import math
+ammount=float(input("input the value    "))
+roundedammount=round (ammount,0)
+def sub (value):
+    if value>=100:
+        return 100
+    else:
+        return value
+print ("your value is", sub (roundedammount))

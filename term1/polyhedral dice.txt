@@ -1,0 +1,3 @@
+import random
+sides=int(input("how many sides on your dice   "))
+print ("your roll is",random.randint(1,sides))
